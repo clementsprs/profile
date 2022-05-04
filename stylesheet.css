@@ -3,11 +3,10 @@
 text-align: center;
 border: 3px;
 border-radius: 30%;
-padding: 45px;
 }
 
 .img-container {
-  text-align: center;
+text-align: center;
 }
 
 #strava {
@@ -29,11 +28,18 @@ p {
   font-size: 20px;
 }
 
+.container {
+  padding: 10px;
+}
+
 
 #main_button {
   text-align: center;
 }
 
+body {
+  display: flex;
+}
 
 .button-18 {
   align-items: center;
@@ -179,4 +185,16 @@ p small {
   text-align: center;
   display: block;
   margin: 0 auto;
+  display: grid;
+  place-content: center;
+}
+
+.container-category {
+  flex: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.container-category-b {
+  margin-left: -20px;
 }
