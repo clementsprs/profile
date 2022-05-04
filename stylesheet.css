@@ -39,7 +39,7 @@ p {
 
 body {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .button-18 {
@@ -194,6 +194,13 @@ p small {
   margin-right: 100px;
 }
 
+.container-category-a {
+  order: 1;
+  margin-left: 100px;
+}
+
+
 .container-category-b {
+  order: 2;
   margin-left: 100px;
 }
